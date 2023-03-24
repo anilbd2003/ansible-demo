@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            
+                background-image: url("ansible.jpg");
+                opacity: 1;
+
+        }
+
+        h1 {
+            text-align: center;
+            color: yellowgreen;
+
+        }
+
+        img {
+            height: 400px;
+            width: 70%;
+            float: right;
+            margin-top: 0ch;
+            border-radius: 25%;
+            padding-right: 15%;
+        }
+
+        p {
+            text-align: center;
+            color: white;
+            font-size: 1.4em;
+            text-align: justify;
+            padding: 5%;
+        }
+
+        hr {
+
+            margin-top: auto;
+        }
+
+        h2 {
+            color: purple;
+            text-align: center;
+            font-size: 50px;
+        }
+
+        table {
+            margin-right: auto;
+            margin-left: auto;
+            max-width: 70%;
+        }
+
+        td {
+            font-size: 1.4em;
+            color: brown;
+        }
+
+        ul {
+            text-align: inherit;
+            color: brown;
+            list-style: none;
+        }
+
+        ol {
+            list-style-position: outside;
+            list-style: disc;
+            text-align: justify;
+            color: yellow;
+            padding: 7%;
+            font-size: 1.4em;
+            margin-top: -4em;
+        }
+
+        p {
+            padding: 5%;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Ansible Automation <em> - Anil Bidary</em></h1>
+    <div>
+        <img src="architect.jpg" alt="text" style="width:30%; padding-left:2%; padding-right: 2%;">
+        <P>
+            Congratulation!!! You have successfully deployed application on web server using ansible automation tool.
+            Please see steps below for your project.   
+            <ol>
+                <li>Create EC2 instance as ansible master.</li>
+                <li>Create key pairs on the ansible-machine "ssh-keygen -t rsa -b 2048"</li>
+                <li>Create EC2 instance as ansible host.</li>
+                <li>Copy public key from ansible master to ansible host.</li>
+                <li>Test ssh connection (passwordless authentication)</li>
+                <li>Install ansible on ansible-machine "sudo amazon-linux-extras install ansible2 -y"</li>
+                <li>Create inventory file</li>
+                <li>Create playbook</li>
+                <li>Create ansible.cfg file </li>
+                <li>Run the ansible playbook</li>
+            </ol>           
+            <img src="anil.jpg" alt="text" style="width:8%; padding-left:2%; padding-right: 2%; height: 150px; ">  
+        </p>        
+    </div>
+    <h2>Thank you !!! </h2>    
+</body>
+</html>
